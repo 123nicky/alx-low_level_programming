@@ -14,6 +14,5 @@ d++
 }
 putcha('\n');
 }
-putcha(10);
 return (0);
 }
