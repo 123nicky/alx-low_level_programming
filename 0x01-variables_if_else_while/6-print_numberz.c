@@ -12,7 +12,7 @@ int ch;
 for (ch = 48; ch <= 57; ch++)		
 {
 putcha(ch);
-{
+}
 putcha(10);
 return (0);
 }
