@@ -1,18 +1,17 @@
-#include <stdlib.h>
 #include <stdio.h>
 /**
-*main - prints all single digit numbers of base 10 starting from 0
-*followed by a new line
-*     
+*main - prints all single digit numbers of base 10.
+*
 *Return: Always 0
 */
 int main(void)
 {
-int ch;
-for (ch = 48; ch <= 57; ch++)		
+int d = '0';
+while (d <= '9')
 {
-putcha(ch);
-{
-putcha(10);
+putcha(d);
+d++
+}
+putcha('\n');
 return (0);
 }
