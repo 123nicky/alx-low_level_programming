@@ -8,6 +8,7 @@
 
 int main(void)
 {
+  
 char character;
 int ainteger;
 long along;
