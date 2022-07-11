@@ -13,7 +13,8 @@ if (str[length] != '\0')
 {
 length++;
 }
-{else
+else
+{
 break;
 }
 }
