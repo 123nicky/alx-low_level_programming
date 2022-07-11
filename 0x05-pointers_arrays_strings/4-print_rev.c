@@ -19,6 +19,7 @@ else
 {
 break;
 }
+}
   
 for (count--; count >= 0; count--)
 {
