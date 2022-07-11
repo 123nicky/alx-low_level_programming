@@ -1,7 +1,8 @@
 #include "main.h"
 /**
 * reset_to_98 - sets n to 98
-* @n: input integer
+* and updates the value it points to to 98.
+* @n: input integer.
 * Return: nothing.
 */
 void reset_to_98(int *n)
