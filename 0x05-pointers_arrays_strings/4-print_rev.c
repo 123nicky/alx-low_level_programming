@@ -10,6 +10,7 @@ int count = 0;
 while (count >= 0)
 {
 if (s[count] != '\0')
+{
 count++;
 }
 else
