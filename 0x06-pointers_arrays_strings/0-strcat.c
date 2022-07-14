@@ -14,6 +14,7 @@ while (*(dest + s1) != '\0')
 s1++;
 }
 while (s2 >= 0)
+  
 {
 *(dest + s1) = *(src + s2);
 if (*(src + s2) == '\0')
