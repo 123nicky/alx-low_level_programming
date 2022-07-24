@@ -23,7 +23,7 @@ flag = s;
 break;
 }
 | } while (*++);
-}
+| ^
 
 return (flag);
 }
