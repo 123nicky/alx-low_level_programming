@@ -22,8 +22,8 @@ if (*s == c)
 flag = s;
 break;
 }
-| } while (*++);
+| | } while (*++);
 | ^
-
 return (flag);
-}
+| }
+| ^
