@@ -22,59 +22,28 @@ if (s2 == NULL)
 s2 = "";
 i = 0;
 while (*s1++)
-
-													i++;
-
-											len1 = i;
-
-												s1 = tmp1;
-
-
-
-													i = 0;
-
-														while (*s2++)
-
-																	i++;
-
-															len2 = i;
-
-																s2 = tmp2;
-
-
-
-																	str_copy = malloc((len1 + len2) * sizeof(char) + 1);
-
-																		if (str_copy == NULL)
-
-																					return (NULL);
-
-
-
-																			j = 0;
-
-																				while (j < len1)
-
-																						{
-
-																									str_copy[j] = s1[j];
-
-																											j++;
-
-																												}
-
-																					while (j < len1 + len2)
-
-																							{
-
-																										str_copy[j] = s2[j - len1];
-
-																												j++;
-
-																													}
-
-																						str_copy[j] = '\0';
-
-																							return (str_copy);
-
+i++;
+len1 = i;
+s1 = tmp1;
+i = 0;
+while (*s2++)
+i++;
+len2 = i;
+s2 = tmp2;
+str_copy = malloc((len1 + len2) *sizeof(char) + 1);
+if (str_copy == NULL)
+return (NULL);
+j = 0;
+while (j < len1)
+{
+str_copy[j] = s1[j];
+j++;
+}
+while (j < len1 + len2)
+{
+str_copy[j] = s2[j - len1];
+j++;
+}
+str_copy[j] = '\0';
+return (str_copy);
 }
