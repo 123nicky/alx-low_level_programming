@@ -22,7 +22,7 @@ while (*str++)
 i++;
 len = i;
 str = tmp;
-str_copy = malloc(len * sizeof(char) + 1);
+str_copy = malloc(len *sizeof(char) + 1);
 if (str_copy == NULL)
 return (NULL);
 j = 0;
